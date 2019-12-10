@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_adisurc"
+            android:title="AdisuRc"
+            android:icon="@drawable/adisu"
+            />
+        <item android:id="@+id/nav_segrepass"
+            android:title="Segrepass"
+            android:icon="@drawable/segrepasslogo"
+            />
+        <item android:id="@+id/nav_forum"
+            android:title="Forum"
+            android:icon="@drawable/forum"
+            />
+        <item android:id="@+id/nav_docenti"
+            android:title="Docenti"
+            android:icon="@drawable/docenti"
+            />
+        <item android:id="@+id/nav_mail"
+            android:title="Mail"
+            android:icon="@drawable/ic_message_black_24dp"
+            />
+    </group>
+
+    <item android:title="Altro">
+        <menu>
+            <item android:id="@+id/nav_reset"
+                android:title="Resetta dati di accesso"
+                android:icon="@drawable/ic_settings_backup_restore_black_24dp"/>
+        </menu>
+    </item>
+</menu>

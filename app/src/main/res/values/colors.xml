@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006fa8</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#006fa8</color>
+    <color name="unina">#2f3082</color>
+    <color name="segrepass">#e31b2c</color>
+    <color name="forum">#606060</color>
+    <color name="mail">#5037cc</color>
+    <color name="white">#ffffff</color>
+</resources>
