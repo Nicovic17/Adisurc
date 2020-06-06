@@ -45,6 +45,9 @@
             android:gravity="center"
             android:minHeight="90dp"
             android:numColumns="2"
+            android:padding="14dp"
+            android:outlineAmbientShadowColor="#000"
+            android:elevation="@dimen/cardview_compat_inset_shadow"
 
             android:stretchMode="columnWidth" />
 

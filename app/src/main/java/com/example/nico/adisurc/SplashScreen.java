@@ -41,7 +41,7 @@ public class SplashScreen extends Activity implements Animation.AnimationListene
             @Override
             public void onClick(View v) {
 
-                Intent intent=new Intent(SplashScreen.this, SegrepassData.class);
+                Intent intent=new Intent(SplashScreen.this, InserimentoDatiGenerali.class);
                 SplashScreen.this.startActivity(intent);
                 finish();
 
@@ -56,7 +56,7 @@ public class SplashScreen extends Activity implements Animation.AnimationListene
                 }catch(InterruptedException e){
                     e.printStackTrace();
                 }finally {
-                    Intent intent=new Intent(SplashScreen.this,SegrepassData.class);
+                    Intent intent=new Intent(SplashScreen.this,InserimentoDatiGenerali.class);
                     startActivity(intent);
                     finish();
                 }

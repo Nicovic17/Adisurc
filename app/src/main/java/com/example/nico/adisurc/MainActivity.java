@@ -144,22 +144,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
         //*******************DATI SEGREPASS***************************
-        SharedPreferences sharedPreferences = getSharedPreferences("segrepassData", MODE_PRIVATE);
-        nomeSegrepass = sharedPreferences.getString("nomeSegrepass", "nomeSegrepass");
-        passwordSegrepass = sharedPreferences.getString("passwordSegrepass", "passwordSegrepass");
+        SharedPreferences sharedPreferences = getSharedPreferences("datiUtente", MODE_PRIVATE);
+        nomeSegrepass = sharedPreferences.getString("nomeUtente", "nomeUtente");
+        passwordSegrepass = sharedPreferences.getString("passwordUtente", "passwordUtente");
         //************************************************************
 
 
         //******************DATI FORUM*********************************
         SharedPreferences sharedPreferencesForum = getSharedPreferences("forumData", MODE_PRIVATE);
-        nomeForum = sharedPreferencesForum.getString("nomeForum", "nomeForum");
-        passwordForum = sharedPreferencesForum.getString("passwordForum", "passwordForum");
+        nomeForum = sharedPreferencesForum.getString("nomeUtente", "nomeUtente");
+        passwordForum = sharedPreferencesForum.getString("passwordUtente", "passwordUtente");
         //*************************************************************
 
         //******************DATI MAIL*********************************
         SharedPreferences sharedPreferencesMail = getSharedPreferences("mailData", MODE_PRIVATE);
-        nomeMail = sharedPreferencesMail.getString("nomeMail", "nomeMail");
-        passwordMail = sharedPreferencesMail.getString("passwordMail", "passwordMail");
+        nomeMail = sharedPreferencesMail.getString("nomeUtente", "nomeUtente");
+        passwordMail = sharedPreferencesMail.getString("passwordUtente", "passwordUtente");
         //*************************************************************
 
 
